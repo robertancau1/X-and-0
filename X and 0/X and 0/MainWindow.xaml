@@ -1,0 +1,15 @@
+﻿<Window x:Class="X_and_0.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:X_and_0"
+        mc:Ignorable="d"
+        Title="Menu" Height="250" Width="400">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="100,40,0,0" Background="PaleGreen"  TextWrapping="Wrap" Text="Tic Tac Toe" VerticalAlignment="Top" FontSize="24" RenderTransformOrigin="0.667,1.473" TextAlignment="Center" Width="201" Height="34"/>
+        <Button Content="Singleplayer vs AI" Name="singleplayer" Click="Singleplayer_Click" HorizontalAlignment="Left" Margin="50,129,0,0" VerticalAlignment="Top" Height="50" Width="100"/>
+        <Button Name="multiplayer" Click="Multiplayer_Click" Content="Multiplayer" HorizontalAlignment="Left" Margin="251,129,0,0" VerticalAlignment="Top" Height="50" Width="100"/>
+
+    </Grid>
+</Window>
